@@ -1,0 +1,2 @@
+
+1. http://stackoverflow.com/questions/302089/git-plugin-for-eclipse

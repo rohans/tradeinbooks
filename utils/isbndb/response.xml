@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ISBNdb server_time="2005-07-29T03:02:22">
+ <BookList total_results="1">
+  <BookData book_id="paul_laurence_dunbar" isbn="0766013502">
+   <Title>Paul Laurence Dunbar</Title>
+   <TitleLong>Paul Laurence Dunbar: portrait of a poet</TitleLong>
+   <AuthorsText>Catherine Reef</AuthorsText>
+   <PublisherText publisher_id="enslow_publishers">
+    Berkeley Heights, NJ: Enslow Publishers, c2000.
+   </PublisherText>
+   <Summary>
+    A biography of the poet who faced racism and devoted himself
+    to depicting the black experience in America.
+   </Summary>
+   <Notes>
+    "Works by Paul Laurence Dunbar": p. 113-114.
+    Includes bibliographical references (p. 124) and index.
+   </Notes>
+   <UrlsText></UrlsText>
+   <AwardsText></AwardsText>
+   <Prices>
+    <Price store_id="alibris" is_in_stock="1" is_new="0"
+           check_time="2005-07-29T01:18:18" price="14.92"/>
+    <Price store_id="amazon" is_in_stock="1" is_new="1"
+           check_time="2005-07-29T01:18:20" price="26.60" />
+   </Prices>
+  </BookData>
+ </BookList>
+</ISBNdb>

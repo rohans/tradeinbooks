@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="ISBNdb">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="BookList"/>
+      </xs:sequence>
+      <xs:attribute name="server_time" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BookList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="BookData"/>
+      </xs:sequence>
+      <xs:attribute name="total_results" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BookData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Title"/>
+        <xs:element ref="TitleLong"/>
+        <xs:element ref="AuthorsText"/>
+        <xs:element ref="PublisherText"/>
+        <xs:element ref="Summary"/>
+        <xs:element ref="Notes"/>
+        <xs:element ref="UrlsText"/>
+        <xs:element ref="AwardsText"/>
+        <xs:element ref="Prices"/>
+      </xs:sequence>
+      <xs:attribute name="book_id" use="required" type="xs:NCName"/>
+      <xs:attribute name="isbn" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Title" type="xs:string"/>
+  <xs:element name="TitleLong" type="xs:string"/>
+  <xs:element name="AuthorsText" type="xs:string"/>
+  <xs:element name="PublisherText">
+    <xs:complexType mixed="true">
+      <xs:attribute name="publisher_id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Summary" type="xs:string"/>
+  <xs:element name="Notes" type="xs:string"/>
+  <xs:element name="UrlsText">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="AwardsText">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Prices">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Price"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Price">
+    <xs:complexType>
+      <xs:attribute name="check_time" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="is_in_stock" use="required" type="xs:integer"/>
+      <xs:attribute name="is_new" use="required" type="xs:integer"/>
+      <xs:attribute name="price" use="required" type="xs:decimal"/>
+      <xs:attribute name="store_id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
