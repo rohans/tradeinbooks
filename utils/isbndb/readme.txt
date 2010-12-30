@@ -18,4 +18,11 @@ To generate the java files
 
 1. Run the following command next to create the java objects
 
-	xjc -d src -p com.nash.tradeinbooks.business.beans response.xsd
+	xjc -d src -p com.isbndb.beans response.xsd
+	
+2. Optionally, you can next create the jar file with the following command: 
+	
+	jar cvf isbndb-beans.jar -C src/ .
+	
+
+	
