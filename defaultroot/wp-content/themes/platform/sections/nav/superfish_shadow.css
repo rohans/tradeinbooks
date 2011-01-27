@@ -1,0 +1,14 @@
+
+
+/*** shadows for all but IE6 ***/
+#primary-nav ul.sf-shadow ul {
+	background:	url('images/shadow.png') no-repeat bottom right;
+	padding: 0 6px 7px 0px;
+	/*-moz-border-radius-bottomleft: 20px;
+		-moz-border-radius-topright: 20px;
+		-webkit-border-top-right-radius: 20px;
+		-webkit-border-bottom-left-radius: 20px;*/
+}
+#primary-nav ul.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}

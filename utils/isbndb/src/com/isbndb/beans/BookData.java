@@ -87,7 +87,9 @@ public class BookData {
     @XmlSchemaType(name = "NCName")
     protected String bookId;
     @XmlAttribute(required = true)
-    protected BigInteger isbn;
+    protected String isbn;
+    @XmlAttribute(required = true)
+    protected String isbn13;
 
     /**
      * Gets the value of the title property.
@@ -334,10 +336,10 @@ public class BookData {
      * 
      * @return
      *     possible object is
-     *     {@link BigInteger }
+     *     {@link String }
      *     
      */
-    public BigInteger getIsbn() {
+    public String getIsbn() {
         return isbn;
     }
 
@@ -346,11 +348,36 @@ public class BookData {
      * 
      * @param value
      *     allowed object is
-     *     {@link BigInteger }
+     *     {@link String }
      *     
      */
-    public void setIsbn(BigInteger value) {
+    public void setIsbn(String value) {
         this.isbn = value;
     }
 
+    /**
+     * Gets the value of the isbn13 property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getIsbn13() {
+        return isbn;
+    }
+
+    /**
+     * Sets the value of the isbn13 property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setIsbn13(String value) {
+        this.isbn = value;
+    }
+
+    
 }

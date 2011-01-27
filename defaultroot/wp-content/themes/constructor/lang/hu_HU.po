@@ -1,0 +1,1125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Constructor Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-16 12:25+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Anton Shevchuk <AntonShevchuk@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: W:/www/wordpress3/wp-content/themes/constructor\n"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/sidebar.php:28
+#: W:/www/wordpress3/wp-content/themes/constructor/template-monocolumn.php:24
+msgid "Pages"
+msgstr "Oldalak"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/sidebar.php:30
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/sidebar.php:32
+#: W:/www/wordpress3/wp-content/themes/constructor/template-monocolumn.php:32
+msgid "Tags"
+msgstr "Címkék"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/sidebar.php:37
+msgid "Meta"
+msgstr "Meta"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/navigation.php:13
+msgid "<span>&laquo;</span> Older Entries"
+msgstr "<span>&laquo;</span> Régebbi Bejegyzések"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/navigation.php:14
+msgid "Newer Entries <span>&raquo;</span>"
+msgstr "Újabb Bejegyzések <span>&raquo;</span>"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/template-authors.php:17
+#: W:/www/wordpress3/wp-content/themes/constructor/template-monocolumn.php:19
+#: W:/www/wordpress3/wp-content/themes/constructor/template-archive.php:49
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Állandó Link %s"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/template-authors.php:20
+#: W:/www/wordpress3/wp-content/themes/constructor/template-monocolumn.php:23
+#: W:/www/wordpress3/wp-content/themes/constructor/template-archive.php:52
+msgid "Read the rest of this entry &raquo;"
+msgstr "Olvassa el a bejegyzés többi részét &raquo;"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/template-authors.php:28
+#: W:/www/wordpress3/wp-content/themes/constructor/template-monocolumn.php:29
+#: W:/www/wordpress3/wp-content/themes/constructor/template-archive.php:87
+msgid "Back to Parent Page"
+msgstr "Vissza a Szülőoldalra"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/template-authors.php:30
+#: W:/www/wordpress3/wp-content/themes/constructor/template-monocolumn.php:33
+#: W:/www/wordpress3/wp-content/themes/constructor/template-archive.php:89
+msgid "Edit"
+msgstr "Javítás"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/slideshow.php:50
+msgid "Read more &raquo;"
+msgstr "Olvasson tovább &raquo;"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/template-monocolumn.php:34
+msgid "No Comments &#187;"
+msgstr "Nincs Hozzászólás &#187;"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/template-monocolumn.php:34
+msgid "1 Comment &#187;"
+msgstr "1 Hozzászólás &#187;"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/template-monocolumn.php:34
+msgid "% Comments &#187;"
+msgstr "% Hozzászólás &#187;"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/template-monocolumn.php:34
+msgid "Comments Closed"
+msgstr "Hozzászólások Lezárva"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/comments.php:10
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Ezt a bejegyzést jeszó védi. A hozzászólások megnézéséhez adja meg a jelszót."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/comments.php:18
+msgid "No Responses"
+msgstr "Nincs Válasz"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/comments.php:18
+msgid "One Response"
+msgstr "Egy Válasz"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/comments.php:18
+msgid "% Responses"
+msgstr "% Válasz"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/comments.php:18
+#, php-format
+msgid "to &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221;-hez"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/comments.php:31
+msgid "Comments are closed."
+msgstr "Hozzászólás lezárva."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/template-archive.php:30
+#, php-format
+msgid "%b"
+msgstr "%b"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/template-archive.php:31
+msgid "%B"
+msgstr "%B"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/404.php:13
+msgid "Error 404 - Not Found"
+msgstr "Hiba 404 - Nem Találtam"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/404.php:16
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr "Sajnálom, olyasmit keres, ami nincs itt."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/functions.php:96
+msgid "Header Menu"
+msgstr "Fejléc Menü"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/functions.php:242
+msgid "No Image"
+msgstr "Nincs kép"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:24
+msgid "Author RSS Feed"
+msgstr "Szerző RSS Feed"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:24
+msgid "RSS Feed"
+msgstr "RSS Feed"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:30
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:34
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:33
+msgid "Full Name"
+msgstr "Teljes Név"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:37
+msgid "Nickname"
+msgstr "Becenév"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:42
+msgid "Website"
+msgstr "Weboldal"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:43
+msgid "Visit author website"
+msgstr "Szerző weboldalának megnézése"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:47
+msgid "ICQ"
+msgstr "ICQ"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:52
+msgid "AIM"
+msgstr "AIM"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:57
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:62
+msgid "MSN"
+msgstr "MSN"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:67
+msgid "About Me"
+msgstr "Rólam"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:75
+#, php-format
+msgid "Latest posts by %s"
+msgstr "%s utolsó bejegyzései"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/author.php:86
+msgid "No posts by this author."
+msgstr "Ennek a szerzőnek nincs bejegyzése."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/template-sitemap.php:32
+msgid "Archives"
+msgstr "Arhívumok"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/themes/example/config.php:24
+#, php-format
+msgid "%1$s is proudly powered by %2$s"
+msgstr "%1$s is proudly powered by %2$s"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/themes/example/config.php:25
+msgid "Constructor Theme"
+msgstr "Constructor Téma"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/layouts/single.php:6
+#: W:/www/wordpress3/wp-content/themes/constructor/layouts/page.php:6
+msgid "Single"
+msgstr "Egyetlen"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/layouts/list.php:6
+msgid "List"
+msgstr "Lista"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/layouts/tile.php:6
+msgid "Tile"
+msgstr "Cím"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/layouts/default.php:6
+msgid "Default"
+msgstr "Alapértelmezés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:21
+msgid "Themes"
+msgstr "Témák"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:22
+msgid "Layout"
+msgstr "Elhelyezkedés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:23
+msgid "Sidebar"
+msgstr "Oldalsáv"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:24
+msgid "Header"
+msgstr "Fejléc"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:25
+msgid "Content"
+msgstr "Tartalom"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:26
+msgid "Comments"
+msgstr "Hozzászólások"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:27
+msgid "Footer"
+msgstr "Lábléc"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:28
+msgid "Fonts"
+msgstr "Fontok"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:29
+msgid "Colors"
+msgstr "Színek"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:30
+msgid "Design"
+msgstr "Külalak"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:31
+msgid "CSS"
+msgstr "CSS"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:32
+msgid "Images"
+msgstr "Képek"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:33
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:34
+msgid "Save"
+msgstr "Mentés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/admin.php:35
+msgid "Help"
+msgstr "Segítség"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:16
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/css.php:34
+msgid "Title"
+msgstr "Cím"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:21
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:31
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:50
+msgid "Font Weight"
+msgstr "Font Méret"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:22
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:35
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:51
+msgid "Text Decoration"
+msgstr "Szöveg Kihangsúlyozás"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:27
+msgid "Font Family Example"
+msgstr "Font Család Példa"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:29
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr "The quick brown fox jumps over the lazy dog"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:32
+msgid "Defines from thin to thick characters. 400 is the same as \"normal\", and 700 is the same as \"bold\""
+msgstr "Meghatározza a karakterek vastagságát. 400 ugyanaz mint \"normal\", és 700 ugyanaz mint \"bold\""
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:37
+msgid "No capitalization. The text renders as it is. This is default"
+msgstr "Nincs kiemelés. A szöveg úgy jelenik meg, ahogyan van. Ez az alapértelmezés."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:38
+msgid "Transforms the first character of each word to uppercase"
+msgstr "Minden szó első betűjét nagybetűre cseréli."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:39
+msgid "Transforms all characters to uppercase"
+msgstr "Minden karaktert nagybetűre cserél."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:40
+msgid "Transforms all characters to lowercase"
+msgstr "Minden karaktert kisbetűre cserél."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:45
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/save.php:32
+msgid "Description"
+msgstr "Leírás"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/fonts.php:55
+msgid "Headers"
+msgstr "Fejlécek"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:48
+msgid "Opacity"
+msgstr "Átlátszóság"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:50
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:51
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:86
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:87
+msgid "None"
+msgstr "Semmi"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:53
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:54
+msgid "Color"
+msgstr "Szín"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:57
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:58
+msgid "Dark Low"
+msgstr "Gyenge Sötétítés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:60
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:61
+msgid "Dark"
+msgstr "Sötétítés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:63
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:64
+msgid "Dark High"
+msgstr "Erős Sötétítés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:67
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:68
+msgid "Light Low"
+msgstr "Gyenge Halványítás"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:70
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:71
+msgid "Light"
+msgstr "Halványítás"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:73
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:74
+msgid "Light High"
+msgstr "Erős Halványítás"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:79
+msgid "Elements Colors"
+msgstr "Elemek Színei"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:82
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:85
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:88
+msgid "tags"
+msgstr "címkék"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:91
+msgid "text"
+msgstr "szöveg"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:94
+msgid "text alternative"
+msgstr "alternatív szöveg"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:97
+msgid "background"
+msgstr "háttér"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:100
+msgid "background alternative"
+msgstr "alternatív háttér"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:103
+msgid "border"
+msgstr "szegély"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:106
+msgid "border alternative"
+msgstr "alternatív szegély"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/colors.php:109
+msgid "opacity style color"
+msgstr "átlátszó stílus színe"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:47
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:95
+msgid "Width"
+msgstr "Szélesség"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:50
+msgid "Container Width"
+msgstr "Tartalom Szélessége"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:59
+msgid "Sidebar Width"
+msgstr "Oldalsáv Szélessége"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:68
+msgid "Extra Bar Width"
+msgstr "Extra Sáv Szélessége"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:76
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:77
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/comments.php:37
+msgid "Left"
+msgstr "Bal"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:79
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:80
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/comments.php:38
+msgid "Right"
+msgstr "Jobb"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:83
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:84
+msgid "Two"
+msgstr "Kettő"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:90
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:91
+msgid "Two Right"
+msgstr "Kettő Jobbra"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:93
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/sidebar.php:94
+msgid "Two Left"
+msgstr "Kettő Balra"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/css.php:7
+#, php-format
+msgid "<font color=\"red\"><b>Warning!</b></font>: File \"%s\" is not writable."
+msgstr "<font color=\"red\"><b>Figyelem!</b></font>: File \"%s\" nem írható."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/css.php:17
+#, php-format
+msgid "CSS is Cascading Style Sheets - read manual for beginners <a href=\"%1$s\">%1$s</a>"
+msgstr "A CSS az Cascading Style Sheets - kezdők olvassák el a kézikönyvet <a href=\"%1$s\">%1$s</a>"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/css.php:18
+msgid "CSS rules"
+msgstr "CSS szabályok"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/css.php:33
+msgid "CSS example"
+msgstr "CSS példa"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/css.php:42
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:65
+msgid "Header menu"
+msgstr "Fejléc menü"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:28
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/design.php:58
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/design.php:79
+msgid "Enable"
+msgstr "Engedélyezés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:34
+msgid "By default use images from posts with thumbnails"
+msgstr "Alapértelmezésként a bejegyzések képeit thumbnail-el használja"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:38
+msgid "Options"
+msgstr "Paraméterek"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:41
+msgid "Show on page"
+msgstr "Oldalon mutatva"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:44
+msgid "Show on single post"
+msgstr "Magányos bejegyzésen mutatva"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:47
+msgid "Show on archive"
+msgstr "Archívon mutatva"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:53
+msgid "Height"
+msgstr "Magasság"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:62
+msgid "Advanced options"
+msgstr "Összetett paraméterek"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:63
+msgid "only for default slideshow"
+msgstr "csak alapértelmezett slideshownak"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:67
+msgid "Number of slides"
+msgstr "Képek száma"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:71
+msgid "Autoplay"
+msgstr "Automata lejátszás"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:74
+msgid "Effect time (ms)"
+msgstr "A végrehajtás ideje (ms)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:77
+msgid "Timeout between slides (ms)"
+msgstr "Időköz a képek között (ms)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:82
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:38
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:75
+msgid "Position"
+msgstr "Pozíció"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:84
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:85
+msgid "In Content"
+msgstr "Tartalomban"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:88
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:89
+msgid "Over Content"
+msgstr "Tartalom felett"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:100
+msgid "use <a href=\"http://wordpress.org/extend/plugins/nextgen-gallery/\" title=\"wordpress.org\">NextGEN-Gallery</a>"
+msgstr "használja <a href=\"http://wordpress.org/extend/plugins/nextgen-gallery/\" title=\"wordpress.org\">NextGEN-Gallery</a>"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:101
+msgid "required <a href=\"http://www.longtailvideo.com/players/jw-image-rotator/\" title=\"www.longtailvideo.com\">imagerotator.swf</a>"
+msgstr "szükséges <a href=\"http://www.longtailvideo.com/players/jw-image-rotator/\" title=\"www.longtailvideo.com\">imagerotator.swf</a>"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/slideshow.php:119
+msgid "You can use <a href=\"http://wordpress.org/extend/plugins/nextgen-gallery/\">NextGEN-Gallery</a> plugin for build custom slideshow"
+msgstr "Használhatja <a href=\"http://wordpress.org/extend/plugins/nextgen-gallery/\">NextGEN-Gallery</a> plugint saját slideshow készítéshez"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/layout.php:17
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/layout.php:39
+msgid "Homepage"
+msgstr "Honlap"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/layout.php:19
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/layout.php:41
+msgid "Post"
+msgstr "Bejegyzés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/layout.php:21
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/layout.php:43
+msgid "Page"
+msgstr "Oldal"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/layout.php:23
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/layout.php:45
+msgid "Search"
+msgstr "Keresés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/layout.php:25
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/layout.php:47
+msgid "Date"
+msgstr "Dátum"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/layout.php:27
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/layout.php:49
+msgid "Category"
+msgstr "Kategória"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/layout.php:29
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/layout.php:51
+msgid "Tag"
+msgstr "Címke"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:5
+msgid "Posts"
+msgstr "Bejegyzések"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:8
+msgid "Show author link"
+msgstr "Szerzői link mutatása"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:12
+msgid "You can use short code [widgets] in your post, and can configured with <a href=\"widgets.php\">widgets</a> (use \"In Posts\" sidebar)"
+msgstr "Használhatja a short code-okat [widgets] a bejegyzésben és konfigurálhatja <a href=\"widgets.php\">widgetekkel</a> (használja \"In Posts\" sidebar-t)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:15
+msgid "Available <a href=\"http://code.google.com/p/wp-constructor/wiki/ConstructorShortcodes\" title=\"Constructor Short Codes\">short codes</a>:"
+msgstr "Elérhető <a href=\"http://code.google.com/p/wp-constructor/wiki/ConstructorShortcodes\" title=\"Constructor Short Codes\">short code-ok</a>:"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:28
+msgid "Content widgets place"
+msgstr "Tartalom widgetek helye"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:29
+msgid "can configured with <a href=\"widgets.php\">widgets</a>, use \"After N Post\" sidebar"
+msgstr "konfigurálhatja <a href=\"widgets.php\">widgetekkel</a>, használja \"After N Post\" sidebar-t"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:35
+msgid "Show widgets place"
+msgstr "Widgetek helyének mutatása"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:40
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:41
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:42
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:43
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:44
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:45
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:46
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:47
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:48
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/content.php:49
+#, php-format
+msgid "after %d post"
+msgstr "%d bejegyzés után"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/comments.php:25
+msgid "Avatar size"
+msgstr "Avatar méret"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/comments.php:36
+msgid "Thumbnail position"
+msgstr "Thumbnail helye"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/footer.php:4
+msgid "Footer Text"
+msgstr "Lábléc Szöveg"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/footer.php:7
+msgid "Enter the text you want to appear in the Footer (or just enter a space if you don’t want any Footer text)"
+msgstr "Adja meg a Láblécben megjelenítendő szöveget (vagy csak egy szóközt, ha nem akar Lábléc szöveget)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/footer.php:9
+msgid "And you can put your Google Analytics code here"
+msgstr "És ide teheti a Google Analitics kódját"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:5
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:34
+msgid "Body Image"
+msgstr "Főrész Képe"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:6
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:42
+msgid "Background Image"
+msgstr "Háttér Képe"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:7
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:50
+msgid "Header Wrapper Image"
+msgstr "Fejléc Borítás Képe"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:8
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:64
+msgid "Content Wrapper Image"
+msgstr "Tartalom Borítás Képe"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:9
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:92
+msgid "Footer Wrapper Image"
+msgstr "Lábléc Borítás Képe"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:10
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:57
+msgid "Header Image"
+msgstr "Fejléc Képe"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:11
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:71
+msgid "Content Image"
+msgstr "Tartalom Képe"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:12
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:99
+msgid "Footer Image"
+msgstr "Lábléc Képe"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:13
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:78
+msgid "Sidebar Image"
+msgstr "Oldalsáv Képe"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:25
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/save.php:20
+#, php-format
+msgid "<font color=\"red\"><b>Warning!</b></font>: Directory \"%s\" is not writable."
+msgstr "<font color=\"red\"><b>Figyelem!</b></font>: Könyvtár \"%s\" nem írható."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:85
+msgid "Extrabar Image"
+msgstr "Extrasáv Képe"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:111
+msgid "See helpful illustration!"
+msgstr "Nézze meg a segítő illusztrációt!"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:132
+msgid "Preview image"
+msgstr "Előnézet képe"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:132
+msgid "preview"
+msgstr "előnézet"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:133
+msgid "Remove image (only from theme)"
+msgstr "Kép eltávolítása (csak a témából)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:133
+msgid "clear"
+msgstr "tiszta"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:153
+msgid "Fixed position"
+msgstr "Rögzített hely"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:175
+msgid "Image Position"
+msgstr "Kép Helye"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:176
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:27
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:77
+msgid "Top Left"
+msgstr "Fenn Balra"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:177
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:28
+msgid "Top Center"
+msgstr "Fenn Középen"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:178
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:29
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:79
+msgid "Top Right"
+msgstr "Fenn Jobbra"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:182
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:83
+msgid "Center Left"
+msgstr "Középen Balra"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:183
+msgid "Center Center"
+msgstr "Középen Középen"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:184
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:85
+msgid "Center Right"
+msgstr "Középen Jobbra"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:188
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:39
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:89
+msgid "Bottom Left"
+msgstr "Lenn Balra"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:189
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:40
+msgid "Bottom Center"
+msgstr "Lenn Középen"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:190
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:41
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:91
+msgid "Bottom Right"
+msgstr "Lenn Jobbra"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:193
+msgid "Image Repeat"
+msgstr "Kép Ismétlés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:194
+msgid "No Repeat"
+msgstr "Nincs Ismétlés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:195
+msgid "Repeat Horizontal"
+msgstr "Vízszintes Ismétlés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/images.php:197
+msgid "Repeat Vertical"
+msgstr "Függőleges Ismétlés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:24
+msgid "Title position"
+msgstr "Cím helye"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:47
+msgid "Hidden title"
+msgstr "Rejtett cím"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:50
+msgid "hide title by CSS"
+msgstr "cím rejtése CSS-el"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:55
+msgid "Header height"
+msgstr "Fejléc magassága"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:66
+msgid "menu can configured with <a href=\"widgets.php\">widgets</a>, use \"header\" sidebar"
+msgstr "menü beállítható <a href=\"widgets.php\">widgetekkel</a>, használja \"header\" sidebar-t"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:72
+msgid "Show top menu"
+msgstr "Felső menü mutatása"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:98
+msgid "stretch across the width"
+msgstr "teljes szélességre nyújtva"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:102
+msgid "You can use <a href=\"nav-menus.php\">navigation menu</a> with name \"Header Menu\""
+msgstr "Használhatja <a href=\"nav-menus.php\">navigation menüt</a> \"Header Menu\" névvel"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:106
+msgid "Disable pages"
+msgstr "Oldalak tiltása"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:107
+msgid "Show first-level pages"
+msgstr "Egyszintű oldalak mutatása"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:108
+msgid "Show pages in drop-down menu"
+msgstr "Oldalak leomló menüben mutatása"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:109
+msgid "Show pages in drop-down menu (2-levels)"
+msgstr "Oldalak leomló menüben mutatása (2-szinten)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:110
+msgid "Show pages in drop-down menu (3-levels)"
+msgstr "Oldalak leomló menüben mutatása (3-szinten)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:113
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:130
+msgid "Exclude:"
+msgstr "Kivéve:"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:115
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:132
+msgid "(IDs, coma separated)"
+msgstr "(ID-k, vesszővel elválasztva)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:120
+msgid "Group categories in one menu item"
+msgstr "Kategóriák csoportosítva egy menüpontban"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:123
+msgid "Disable categories"
+msgstr "Kategóriák tiltása"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:124
+msgid "Show first-level categories"
+msgstr "Első szintű kategóriák mutatása"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:125
+msgid "Show categories in drop-down menu"
+msgstr "Kategóriák leomló menüben mutatása"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:126
+msgid "Show categories in drop-down menu (2-levels)"
+msgstr "Kategóriák leomló menüben mutatása (2-szinten)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:127
+msgid "Show categories in drop-down menu (3-levels)"
+msgstr "Kategóriák leomló menüben mutatása (3-szinten)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:134
+msgid "Custom title:"
+msgstr "Választható cím:"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:138
+msgid "Links"
+msgstr "Linkek"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:141
+msgid "Show link to home page"
+msgstr "Kezdőlapra mutató link"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:144
+msgid "Show link to RSS feed"
+msgstr "RSS feed-re mutató link"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:146
+msgid "Tools"
+msgstr "Eszközök"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/header.php:149
+msgid "Show search form"
+msgstr "Keresés mező mutatása"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/help.php:6
+msgid "Constructor Wordpress Theme"
+msgstr "Constructor Wordpress Téma"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/help.php:8
+msgid "Project Homepage"
+msgstr "Projekt Honlap"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/help.php:9
+msgid "Author Homepage"
+msgstr "Szerző Honlap"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/help.php:12
+msgid "Related Links"
+msgstr "Kapcsolódó Linkek"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/help.php:23
+msgid "Donate"
+msgstr "Támogatás"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/help.php:25
+msgid "You can send your Name and Url for promote on <a href=\"http://donate.hohli.com/\">Donate page</a>"
+msgstr "Elküldheti nevét és Url-jét a <a href=\"http://donate.hohli.com/\">Donate page</a> támogatása számára"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/help.php:42
+msgid "Author works"
+msgstr "A szerző munkái"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/save.php:1
+msgid "Save As"
+msgstr "Mentés Másként"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/save.php:13
+msgid "Save Current Theme As ..."
+msgstr "Aktuális Téma Mentése Másként ..."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/save.php:24
+msgid "Theme Name"
+msgstr "Téma Neve"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/save.php:28
+msgid "Theme URI"
+msgstr "Téma URI"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/save.php:36
+msgid "Version"
+msgstr "Verzió"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/save.php:40
+msgid "Author"
+msgstr "Szerző"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/save.php:44
+msgid "Author URI"
+msgstr "Szerző URI"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/save.php:49
+msgid "Save Theme"
+msgstr "Téma Mentése"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/themes.php:51
+msgid "File \"style.css\" is not exists"
+msgstr "File \"style.css\" nem létezik"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/themes.php:52
+msgid "Anonymous"
+msgstr "Névtelen"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/themes.php:66
+msgid "version"
+msgstr "verzió"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/design.php:53
+msgid "Borders"
+msgstr "Keret"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/design.php:61
+msgid "Border radius"
+msgstr "Keret sugara"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/design.php:69
+msgid "Features for modern browsers (not IE of course)"
+msgstr "Modern böngészők képessége (természetesen nem IE)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/design.php:73
+msgid "Shadow"
+msgstr "Árnyék"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/design.php:82
+msgid "Horizontal offset"
+msgstr "Vízszintes kiterjedés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/design.php:85
+msgid "Vertical offset"
+msgstr "Függőleges kiterjedés"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/settings/design.php:88
+msgid "Blur"
+msgstr "Homályosság"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/ajax/save.php:33
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/ajax/save.php:36
+#, php-format
+msgid "Directory \"%s\" is not writable."
+msgstr "Könyvtár \"%s\" nem írható."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/ajax/save.php:54
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/ajax/save.php:68
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/ajax/save.php:72
+#, php-format
+msgid "Can't copy file \"%s\"."
+msgstr "File nem másolható \"%s\"."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/ajax/save.php:107
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/ajax/save.php:111
+#, php-format
+msgid "Can't save file \"%s\"."
+msgstr "File nem menthető \"%s\"."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/admin/ajax/save.php:114
+msgid "Theme was saved, please reload page for view changes"
+msgstr "A téma le lett mentve, kérem töltse be újra az oldalt, hogy lássa a változásokat."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Main.php:186
+msgid "Home"
+msgstr "Kezdőlap"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Main.php:352
+#, php-format
+msgid "%1$s and %2$s."
+msgstr "%1$s és %2$s."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Main.php:352
+msgid "Entries (RSS)"
+msgstr "Bejegyzések (RSS)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Main.php:352
+msgid "Comments (RSS)"
+msgstr "Hozzászólások (RSS)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Main.php:356
+#, php-format
+msgid "%d queries. %s seconds."
+msgstr "%d kérés. %s másodperc."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Admin.php:72
+#, php-format
+msgid "System can't create \"%s\" directory"
+msgstr "A rendszer nem tudja létrehozni \"%s\" könyvtárat"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Admin.php:87
+#, php-format
+msgid "File \"%s\" is not a image (jpeg, png, gif, tiff)"
+msgstr "File \"%s\" nem kép (jpeg, png, gif, tiff)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Admin.php:94
+#, php-format
+msgid "File \"%s\" can't be move to \"images\" folder"
+msgstr "File \"%s\" nem áthelyezhető a \"images\" könyvtárba"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Admin.php:264
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Admin.php:273
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Admin.php:435
+msgid "Customize Theme"
+msgstr "Téma Testreszabása"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Admin.php:265
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Admin.php:274
+msgid "Customize"
+msgstr "Testreszabás"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Admin.php:293
+msgid "Standart Fonts"
+msgstr "Standard Fontok"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Admin.php:301
+msgid "Google Fonts"
+msgstr "Google Fontok"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Admin.php:438
+msgid "If you like this theme and find it useful, help keep this theme free and actively developed by clicking the donate button (via PayPal or CC)"
+msgstr "Ha tetszik ez a téma és hasznosnak találja, a támogatás gombbal segítsen ingyenesnek tartani és aktívan fejleszteni. (PayPal vagy CC)"
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Admin.php:442
+msgid "Options saved."
+msgstr "Paraméterek mentve."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Admin.php:446
+msgid "Some images can't be upload. Please check permissions"
+msgstr "Néhány kép nem feltölthető. Ellenőrizze az engedélyeket."
+
+#: W:/www/wordpress3/wp-content/themes/constructor/libs/Constructor/Admin.php:467
+msgid "Save Changes"
+msgstr "Változások Mentése"
+

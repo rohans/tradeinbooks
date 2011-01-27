@@ -7,6 +7,7 @@ var Manager;
     	solrUrl: 'http://example.solrstuff.org/solrjs/'
     	  //solrUrl: 'http://localhost:8080/solr/'
     });
+    
     Manager.addWidget(new AjaxSolr.ResultWidget({
       id: 'result',
       target: '#docs'
@@ -77,6 +78,6 @@ var Manager;
     else {
       return this.hide();
     }
-  }
+  };
 
 })(jQuery);

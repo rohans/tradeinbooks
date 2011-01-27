@@ -1,0 +1,1 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%><%@ page contentType="text/xml" %><c:out value="${__wp_admin_admin_ajax_block1}" escapeXml="false" />

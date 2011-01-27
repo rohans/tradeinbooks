@@ -43,7 +43,7 @@ AjaxSolr.AutocompleteWidget = AjaxSolr.AbstractFacetWidget.extend({
           self.manager.doRequest(0);
         }
       });
-    } // end callback
+    }; // end callback
 
     var params = [ 'q=*:*&facet=true&facet.limit=-1&facet.mincount=1&json.nl=map' ];
     for (var i = 0; i < this.fields.length; i++) {

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="true">
+
+  <!-- Create a rolling file appender called "T" for the Tomcat system log -->
+  <appender name="T" class="org.apache.log4j.DailyRollingFileAppender">
+  	<!-- Change this location if you wish. -->
+    <param name="File" value="${catalina.base}/logs/nwp_debug.log"/>
+    <param name="Threshold" value="info"/>
+
+    <layout class="org.apache.log4j.PatternLayout">
+                <param name="ConversionPattern" value="%d{dd MMM yyyy HH:mm:ss} %-5p [%t]: %l %m%n"/>
+    </layout>
+
+  </appender>
+  
+  <appender name="TC" class="org.apache.log4j.ConsoleAppender">
+    <param name="Target" value="System.out"/>
+	  <param name="Threshold" value="debug"/>
+    <layout class="org.apache.log4j.PatternLayout">
+                <param name="ConversionPattern" value="%d{dd MMM yyyy HH:mm:ss} %-5p [%t]: %l %m%n"/>
+    </layout>
+
+  </appender>
+  
+  <!-- Fill in the username and password fields
+       See log-table-mysql.sql on how to create the table
+  -->
+  <!-- appender name="DB" class="org.apache.log4j.jdbcplus.JDBCAppender">
+    <param name="dbclass" value="com.mysql.jdbc.Driver"/>
+	  <param name="url" value="jdbc:mysql://localhost:3306/nwp"/>
+    <param name="username" value=""/>
+    <param name="password" value=""/>
+    <param name="sql" value="INSERT INTO log (id, message, throwable, category, priority, tstamp) VALUES (@INC@, '@MSG@', '@THROWABLE@', '@CAT@', '@PRIO@', CURRENT_TIMESTAMP)"/>
+    <param name="threshold" value="debug"/>
+  </appender-->
+  
+  <logger name="org.springframework">
+    <level value="warn"/>
+  </logger >
+
+  <!-- Configure the log level for Numiton PHP runtime -->
+  <logger name="com.numiton">
+    <level value="debug"/>
+  </logger >
+  
+  <logger name="com.numiton.generic.PhpWeb">
+    <level value="info"/>
+  </logger >
+  
+  <logger name="com.numiton.generic.PhpWebEnvironment">
+    <level value="info"/>
+  </logger >
+  
+  <!-- Configure the log level for nWordPress -->
+  <logger name="org.numiton.nwp">
+    <level value="debug"/>
+  </logger >
+
+  <!-- Configure the root appender -->
+  <root>
+  <level value="debug"/>
+    <appender-ref ref="T"/>
+    <appender-ref ref="TC"/>
+    <!-- appender-ref ref="DB"/ -->
+  </root>
+
+</log4j:configuration>

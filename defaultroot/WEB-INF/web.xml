@@ -1,12 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
-  <display-name>test</display-name>
-  <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
-  </welcome-file-list>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+
+
+	<!-- Enables/disables the PHP runtime layer. Can be 0 or 1. Defaults to 
+		1. -->
+	<context-param>
+		<param-name>php_enabled</param-name>
+		<param-value>0</param-value>
+	</context-param>
+
+	<!-- The directory which should be considered as temporary directory instead 
+		of the value provided by the "java.io.tmpdir" Java system property. Defaults 
+		to the value of the "java.io.tmpdir" Java system property. -->
+	<!-- context-param> <param-name>temp_dir_override</param-name> <param-value>/tmp</param-value> 
+		</context-param -->
+
+	<context-param>
+		<param-name>output_flavor</param-name>
+		<param-value>spring</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+            /WEB-INF/numiton-servlet.xml
+        </param-value>
+	</context-param>
+
+	<listener>
+		<listener-class>com.numiton.generic.NumitonContextListener</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+
+
+	<!-- - Servlet that dispatches request to registered handlers (Controller 
+		implementations). - Has its own application context, by default defined in 
+		"{servlet-name}-servlet.xml", - i.e. "numiton-servlet.xml". -->
+	<servlet>
+		<servlet-name>numiton</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>
+	            /WEB-INF/numiton-servlet.xml
+	        </param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ImageScale</servlet-name>
+		<servlet-class>com.jsos.image.ImageScaleServlet</servlet-class>
+		<init-param>
+			<param-name>dir</param-name>
+			<param-value>/Users/rohans/Documents/rohanspace/works/tradeinbooks/defaultroot/images/books/raw</param-value>
+		</init-param>
+		<init-param>
+			<param-name>cache</param-name>
+			<param-value>/Users/rohans/Documents/rohanspace/works/tradeinbooks/defaultroot/images/books/thumbs</param-value>
+		</init-param>
+		<init-param>
+			<param-name>width</param-name>
+			<param-value>81</param-value>
+		</init-param>
+		<init-param>
+			<param-name>height</param-name>
+			<param-value>81</param-value>
+		</init-param>
+	</servlet>
+	<!-- - Maps the numiton dispatcher to "*.php". All handler mappings in - 
+		numiton-servlet.xml will by default be applied to this subpath. - If a mapping 
+		isn't a /* subpath, the handler mappings are considered - relative to the 
+		web app root. -->
+	<servlet-mapping>
+		<servlet-name>numiton</servlet-name>
+		<url-pattern>*.php</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ImageScale</servlet-name>
+		<url-pattern>/imagescale</url-pattern>
+	</servlet-mapping>
+
+	<!-- The Welcome File List -->
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
 </web-app>

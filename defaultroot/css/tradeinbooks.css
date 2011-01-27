@@ -1,7 +1,13 @@
 * {
   padding: 0;
   margin: 0;
-} 
+}
+
+/* always show scrollbars */
+html {
+     overflow: -moz-scrollbars-vertical;
+     overflow: scroll;
+}
 
 body {
   background: #fff url(../images/header.gif) repeat-x;
@@ -56,12 +62,17 @@ a:hover {
   border-left: 1px solid #aaa;
   text-align: justify;
 }
-.right h2 {
+.right h2, .right h2 a {
   padding: 15px 0 5px 0;
   color: #B4241B;
   font-size: 20px;
   font-weight: 100;
   letter-spacing: -2px;
+}
+.right h2 a:hover {
+	background:url('/tradeinbooks/images/right-arrow.png') no-repeat 0% 70%;
+	text-decoration:none;
+	padding-left:20px;	
 }
 #result a {
   margin-right: 5px;
@@ -103,6 +114,10 @@ a:hover {
 }
 #search input {
   width: 350px;
+}
+#search button {
+  width: 150px;
+  height:30px;
 }
 #calendar {
   width: 160px;
@@ -157,4 +172,84 @@ font-size: 170%;
 }
 a.tagcloud_size_10 {
 font-size: 180%;
+}
+#search li {
+	padding-bottom:5px;
+	list-style:none;
+}
+
+.border { border:1px solid #d0d0d0;  }
+
+.readonly {
+	border:none;
+	color:#6998F0;
+	font-size:2em;
+	
+}
+#detail li, #postform li {
+	padding-bottom:5px;
+	list-style:none;
+}
+
+#detail button, #postform button {
+  width: 150px;
+  height:30px;
+}
+
+
+#detail input, #postform input {
+font-size: 1.8em;
+height: 30px;
+width: 350px;
+}
+
+#postform textarea {
+font-size: 1.4em;
+height: 60px;
+width: 350px;	
+}
+
+#postform input.btn {
+	height:30px;width: 150px;-webkit-appearance: button;-webkit-box-align: center;
+-webkit-box-sizing: border-box;
+background-color: buttonface;
+border: 2px outset buttonface;
+color: buttontext;
+cursor: default;
+padding: 2px 6px 3px;
+text-align: center;
+font-size: 1em;color: initial;
+display: inline-block;
+font: -webkit-small-control;
+letter-spacing: normal;
+line-height: normal;
+margin: 0em;
+text-indent: 0px;
+text-shadow: none;
+text-transform: none;
+word-spacing: normal;
+cursor: pointer;
+cursor: hand;
+}
+
+button {
+cursor: pointer;
+cursor: hand;
+}
+
+#postresult {
+	color:#6998f0; 
+}
+
+#image-thumb {
+	width:90px !important;height:127px !important;margin-right:10px; margin-bottom:8px; float:left; text-align: center; cursor:auto;
+}
+.loadable-image {
+	border:1px solid #ddd;
+}
+.loaded-image {
+	border:1px solid #333;
+}
+.loadable-image img {
+	padding-top:22px;
 }

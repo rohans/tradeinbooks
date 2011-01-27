@@ -6,15 +6,6 @@
 
 <jboss-web>
 
-    <class-loading>
-        <loader-repository>
-            org.jboss.on:loader=embedded
-            <loader-repository-config>java2ParentDelegation=false</loader-repository-config>
-        </loader-repository>
-    </class-loading>
-<!--
-    <security-domain>java:/jaas/jmx-console</security-domain>-->
-
     <context-root>tradeinbooks</context-root>
 
 </jboss-web>

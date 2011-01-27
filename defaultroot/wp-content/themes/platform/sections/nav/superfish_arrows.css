@@ -1,0 +1,41 @@
+/*** arrows **/
+#primary-nav ul.sf-menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+span.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			.75em;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	padding:		6px 0;
+	overflow:		hidden;
+	background:		url('images/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > span.sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			.8em;
+	background-position: 0 -96px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > span.sf-sub-indicator,
+a:hover > span.sf-sub-indicator,
+a:active > span.sf-sub-indicator,
+li:hover > a > span.sf-sub-indicator,
+li.sfHover > a > span.sf-sub-indicator {
+	background-position: -10px -96px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+#primary-nav ul.sf-menu ul span.sf-sub-indicator { background-position:  -10px 1px; }
+#primary-nav ul.sf-menu ul a > span.sf-sub-indicator { background-position:  -10px 1px; }
+/* apply hovers to modern browsers */
+#primary-nav ul.sf-menu ul a:focus > span.sf-sub-indicator,
+#primary-nav ul.sf-menu ul a:hover > span.sf-sub-indicator,
+#primary-nav ul.sf-menu ul a:active > span.sf-sub-indicator,
+#primary-nav ul.sf-menu ul li:hover > a > span.sf-sub-indicator,
+#primary-nav ul.sf-menu ul li.sfHover > a > span.sf-sub-indicator {
+	background-position: -10px 1px; /* arrow hovers for modern browsers*/
+}

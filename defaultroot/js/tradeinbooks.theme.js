@@ -1,9 +1,12 @@
 (function ($) {
-
+	
 AjaxSolr.theme.prototype.result = function (doc, snippet) {
-  var output = '<div><h2>' + doc.title + '</h2>';
+  var output = '<div style="display:block;"><h2><a href="/tradeinbooks/detail.html">' + doc.title + '</a></h2>';
   output += '<p id="links_' + doc.id + '" class="links"></p>';
-  output += '<p>' + snippet + '</p></div>';
+  //output += '<img src="http://covers.openlibrary.org/b/isbn/9780385533225-M.jpg" height="81" width="81" align="left" /><p>' + snippet + '</p></div>';
+  //output += '<div id="image-thumb" class="loadable-image" src="/tradeinbooks/imagescale?'+pick_image()+'" onload="img = $(arguments[0]); img.bind(\'click\', function(){ alert(\'Image was clicked\'); })"></div>';
+  output += '<div id="image-thumb" class="loadable-image" src="http://covers.openlibrary.org/b/isbn/'+doc.isbn+'-M.jpg" onload="img = $(arguments[0]); img.bind(\'click\', function(){ alert(\'Image was clicked\'); })"></div>';
+  output += '<p>' + snippet + '</p></div><div class="clear"></div>';
   return output;
 };
 

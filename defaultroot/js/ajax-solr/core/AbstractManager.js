@@ -21,6 +21,8 @@ AjaxSolr.AbstractManager = AjaxSolr.Class.extend(
    */
   solrUrl: 'http://localhost:8983/solr/',
 
+  ajaxUrl: null,
+  
   /**
    * If we want to proxy queries through a script, rather than send queries
    * to Solr directly, set this field to the fully-qualified URL of the script.

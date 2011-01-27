@@ -1,0 +1,50 @@
+/*  
+Theme Name: Platform
+
+Description: Platform is a drag-and-drop framework for WordPress. It will help you do amazing things with your site, faster & easier than ever before. Designed and developed by <a href="http://pagelines.com/">PageLines</a> in San Diego, California. ***Twitter - @PageLines
+
+Version: 1.0.8
+
+Author: PageLines
+
+Author URI: http://www.pagelines.com
+
+Theme URI: http://www.pagelines.com/themes/platformpro
+
+Tags: buddypress, theme-options, white, silver, light, one-column, two-columns, three-columns, left-sidebar, right-sidebar, flexible-width, custom-menu, fixed-width, threaded-comments, custom-header, custom-colors, translation-ready
+
+***** IMPORTANT ***** 
+Don't pirate this theme. Themes are typically hacked and injected with spam files and scripts that will get you 'black-listed' from search engines and create security risks on your server.
+ 
+License: GPL
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+CUSTOMIZATION NOTE - Customization CSS in PageLines Themes
+	- Customize PageLines themes by adding CSS in the theme settings or in a child theme. 
+	- Don't add it here; as it will either get overwritten by updates, or prevent you from updating at all
+	- (Trust us on this one!)
+
+*/
+
+/* Get Core CSS */
+@import url('core/css/core.css');
+
+/* Get Theme CSS */
+@import url('css/theme.css');
+
+/* Get Dynamic CSS */
+@import url('core/css/dynamic.css');
+
+/* For WordPress.org theme repository checklist */
+.alignright {}
+.alignleft {}
+.alignnone {}
+.aligncenter {}
+.avatar {}
+.wp-caption {}
+.wp-caption-text {}
+.gallery {}
+.gallery-caption {}
+.sticky {}
+.bypostauthor {}
+.wp-smiley {}

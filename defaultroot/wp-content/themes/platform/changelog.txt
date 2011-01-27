@@ -1,0 +1,20 @@
+****************************
+
+  Platform Release Notes: 
+
+****************************
+
+Version 1.0.8
+- Refinement - Thumb handling (In Clips)
+- Refinement - Excerpt Continue Reading Link
+- Localization - Localized arrows (&rarr;), Added Class for hiding
+- Bug Fix - Horizontal Scroll Issue
+- Bug Fix - Hide Default Sidebar
+- Clarifications
+------------------------------------- Date: 12-6-2010
+
+Version 1.0.7
+- Start change tracking with Platform free version
+- Fix - Fixed missing files
+------------------------------------- Date: Nov 23, 2010
+

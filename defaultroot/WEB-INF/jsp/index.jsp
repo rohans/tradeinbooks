@@ -1,0 +1,1 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%><% if("true".equals(request.getAttribute("RENDER_AS_XML"))) {response.setContentType("text/xml");} else {response.setContentType("text/html");}%><c:out value="${__index_block1}" escapeXml="false" />

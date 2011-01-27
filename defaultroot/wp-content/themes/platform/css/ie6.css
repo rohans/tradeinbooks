@@ -1,0 +1,12 @@
+#nav ul{float:right;}
+#nav ul li a {border:1px solid #fff;border-bottom: none;}
+
+
+/* POSTS */
+.post-title {
+	width: 300px;
+}
+
+#sidebar1 ul li,#sidebar2 ul li{
+	display:block;
+}

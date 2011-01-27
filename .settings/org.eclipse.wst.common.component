@@ -3,6 +3,8 @@
     <wb-module deploy-name="tradeinbooks">
         <wb-resource deploy-path="/" source-path="/defaultroot"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/test"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/utils/isbndb/src"/>
         <property name="context-root" value="tradeinbooks"/>
         <property name="java-output-path" value="/tradeinbooks/build/classes"/>
     </wb-module>

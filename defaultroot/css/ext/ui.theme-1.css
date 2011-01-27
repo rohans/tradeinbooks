@@ -1,11 +1,14 @@
 #header #left {
- 	float:left; width:500px;	
+ 	float:left; width:670px;	
 }
 
 #header #right {
-	float:right; width:200px;margin-top:20px;text-align:right;	
+	float:right; width:200px;text-align:right;	
 }
 
+#header #middle {
+	float:left;width:130px;margin-top:12px;
+}
 #search input {
 	height:30px;font-size:1.8em;	
 }
